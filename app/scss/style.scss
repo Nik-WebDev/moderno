@@ -181,12 +181,12 @@
     font-size: 18px;
     display: block;
   }
-  &-star { 
+  &-star {
     display: flex;
     align-items: center;
     font-size: 12px;
-    span{
-      color:$bg;
+    span {
+      color: $bg;
     }
   }
   &-category {
@@ -239,25 +239,93 @@
       margin-left: 3px;
       margin-right: 3px;
       &.slick-active {
-        button{
+        button {
           background-color: $green;
-        }        
+        }
       }
       button {
         border-radius: 50%;
-        background-color: rgb(232,232,232);
-        border:none;
+        background-color: rgb(232, 232, 232);
+        border: none;
         font-size: 0;
         width: 16px;
         height: 16px;
         cursor: pointer;
-        outline:none;
+        outline: none;
       }
     }
   }
 }
 // =============== Product Slider===============
-// ==============================
+
+.advantages {
+  background-color: $bg;
+  padding: 110px 0;
+  &__title {
+    color: #ffffff;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 370px;
+    text-align: center;
+    padding: 0 15px;
+    &:hover {
+      .advantages__item-images {
+        background-color: $green;
+      }
+      .advantages__item-title {
+        color: $green;
+      }
+      .advantages__item-images {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+    &-images {
+      width: 114px;
+      height: 114px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 30px;
+      transition: all 0.3s;
+    }
+  }
+  &-title {
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+    transition: all 0.3s;
+  }
+  &-text {
+    font-size: 15px;
+  }
+}
+.icosvg-1 {
+  svg {
+    width: 50px;
+  }
+}
+
+.icosvg-2 {
+  svg {
+    width: 70px;
+  }
+}
+.icosvg-3 {
+  svg {
+    width: 86px;
+  }
+}
+
+// =============== Advantages ===============
 // ==============================
 // ==============================
 // ==============================
