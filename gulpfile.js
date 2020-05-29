@@ -42,6 +42,7 @@ gulp.task("style", function () {
       "node_modules/normalize.css/normalize.css",
       "node_modules/rateyo/src/jquery.rateyo.css",
       "node_modules/ion-rangeslider/css/ion.rangeSlider.css",
+      "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css"
     ])
     .pipe(concat("libs.min.css"))
     .pipe(cssmin())
@@ -56,6 +57,7 @@ gulp.task("script", function () {
       "node_modules/mixitup/dist/mixitup.min.js",
       "node_modules/rateyo/src/jquery.rateyo.js",
       "node_modules/ion-rangeslider/js/ion.rangeSlider.js",
+      "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js"
     ])
     .pipe(concat("libs.min.js"))
     .pipe(uglify())

@@ -29,6 +29,16 @@
 }
 
 @font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"),
+    url("../fonts/Roboto-Light.woff") format("woff"),
+    url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  display: swap;
+}
+
+@font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot?rljd0t");
   src: url("../fonts/icomoon.eot?rljd0t#iefix") format("embedded-opentype"),
